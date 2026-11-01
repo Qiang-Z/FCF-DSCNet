@@ -1,0 +1,5 @@
+# Install a PyTorch build appropriate for your OS/CUDA first: https://pytorch.org/get-started/locally/
+torch>=2.0
+numpy
+scipy
+einops

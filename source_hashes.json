@@ -1,0 +1,13 @@
+{
+  "models.py": "6db41015b2fc8ab1ecc101e1e6fb907cadd813ea23c905df72a633a0168dd64a",
+  "snapshot/backend/cracklab/modules/verified_v3.py": "edd242ed653544be26ed0f780ceefffc321fecbaa36d6161b8a98d797ced3e65",
+  "snapshot/backend/cracklab/modules/verified.py": "1499ef1558af0210654424eb8d4ae496195b62191242272b5d7182aeaec59321",
+  "snapshot/backend/cracklab/modules/common.py": "9b5f33ac66019a32a4db53cf9632381193c7835c3c6fb5104463cd695d77fde9",
+  "snapshot/backend/cracklab/objective_v2.py": "5a5bd1b41f53a078d82ce7e71c01469aecdc90a413fd92f5f05ee01ff0e614f3",
+  "snapshot/backend/cracklab/corridor_targets.py": "85a9cf39fb224761d454048b1fad49bcedaa9dd1f2f9069df572893fd42addaa",
+  "snapshot/backend/cracklab/losses.py": "ff6f503f8c08250c2f8a25e0544db5aed909adf7028ad7598719cfaa757d6764",
+  "snapshot/backend/cracklab/metrics.py": "65a56412fb3b3196c469b23423cddcd40489c485945649bb95bd950118ccd076",
+  "vendor/dscnet_source/S3_DSCNet_pro.py": "7dd7235bb89b54742872ce0c13f55620f32c2e8342dda9431e4576f5711c70b2",
+  "vendor/dscnet_source/S3_DSConv_pro.py": "807ba97eab47d18737f3c7a565053ac0ed0365efb6b5aab931e2ab657e44e0b4",
+  "vendor/dscnet_source/LICENSE": "7d6eb9b326305fd75a5f37fd1cde09767a97745da340bb0c6d5da6a1411595af"
+}
