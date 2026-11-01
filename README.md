@@ -99,22 +99,6 @@ with torch.no_grad():
 
 实际训练时需提供自己的数据读取、数据增强、优化器和训练循环。本包仅含方法主代码及运行所需依赖，**不包含**完整实验管线、数据集划分、训练配置、预训练权重或测试脚本，因此不能仅凭此包直接复现论文数值。论文中的实验使用 512 像素输入和指定数据划分、验证集选模及评价协议；实际部署需根据任务处理边界和大图切块。
 
-## 上传到 GitHub
-
-解压后，将 `FCF_DSCNet_core_20261101` 文件夹作为仓库根目录。在 GitHub 创建空仓库后，可在该文件夹运行以下命令，并将地址替换为自己的仓库地址：
-
-```bash
-git init
-git add .
-git status
-git commit -m "Add FCF model core"
-git branch -M main
-git remote add origin https://github.com/用户名/仓库名.git
-git push -u origin main
-```
-
-首次提交前先检查 `git status`；不要上传私有数据、账号凭据或无权公开的文件。若已有 Git 仓库，请根据该仓库现有分支和远程地址操作。
-
 ## 来源与许可
 
 FCF 和接入代码来自论文实验的归档快照；文件校验值见 `source_hashes.json`。DSCNet 主干来自 [YaoleiQi/DSCNet](https://github.com/YaoleiQi/DSCNet)，上游提交为 `0e35b2b6ea748a5e8ce7557ea3e580b9951471d6`。主干文件保留于 `vendor/dscnet_source/`，其 MIT 许可见该目录的 `LICENSE`。
